@@ -1,0 +1,15 @@
+INSERT INTO Instructor (ID, NAME, VERSION) VALUES (1, 'Uma', 0)
+INSERT INTO Instructor (ID, NAME, VERSION) VALUES (2, 'Dona', 0)
+INSERT INTO Instructor (ID, NAME, VERSION) VALUES (3, 'Tina', 0)
+
+INSERT INTO Instructor_certifications (Instructor_ID, CERTIFICATIONS) VALUES (1, 'FIS0')
+INSERT INTO Instructor_certifications (Instructor_ID, CERTIFICATIONS) VALUES (1, 'FIS1')
+INSERT INTO Instructor_certifications (Instructor_ID, CERTIFICATIONS) VALUES (1, 'MASG')
+INSERT INTO Instructor_certifications (Instructor_ID, CERTIFICATIONS) VALUES (2, 'FIS0')
+INSERT INTO Instructor_certifications (Instructor_ID, CERTIFICATIONS) VALUES (2, 'MASG')
+INSERT INTO Instructor_certifications (Instructor_ID, CERTIFICATIONS) VALUES (3, 'MASG')
+
+INSERT INTO Specialty (ID, DESIGNATION, MINDURATION, CERTIFICATION) VALUES (1, 'Fisioterapia', 20, 'FIS0')
+INSERT INTO Specialty (ID, DESIGNATION, MINDURATION, CERTIFICATION) VALUES (2, 'Massagem Desportiva', 30, 'MASG')
+INSERT INTO Specialty (ID, DESIGNATION, MINDURATION, CERTIFICATION) VALUES (3, 'Pilates Clínico', 40, 'FIS1')
+INSERT INTO Specialty (ID, DESIGNATION, MINDURATION, CERTIFICATION) VALUES (4, 'Pós Parto', 30, 'FIS0')
